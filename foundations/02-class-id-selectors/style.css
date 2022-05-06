@@ -1,0 +1,20 @@
+.odd-number-crew{
+    background-color: #ffcccb;
+    font-family: Verdana, "DejaVu Sans", sans-serif
+}
+
+#firstID {
+    color: hsl(224, 89%, 50%);
+    font-size: 36px;
+}
+
+.second-Class {
+    font-size: 24px;
+}
+
+#secondID {
+    background-color: rgb(165, 214, 16);
+    font-size: 24px;
+    font-weight: bold;
+}
+
