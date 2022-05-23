@@ -3,6 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  /*changes the contrainer into a flexbox container */
+  display: flex;
+  /* following two lines center the div by aligning it on both axis */
+  align-items: center;
+  justify-content: center;
 }
 
 .box {
