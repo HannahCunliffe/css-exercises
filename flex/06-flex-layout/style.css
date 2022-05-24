@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* added lines */
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* added lines */
+  padding: 10px;
 }
 
 input {
@@ -24,4 +29,50 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* added sections below */
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* removes underline from links */
+a:link {
+  text-decoration: none;
+  color:darkslategray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color:#eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.right-links {
+  display: flex;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* flex: 1 makes it so the flexed content will grow to fill the whole browser window */
+  flex: 1;
 }
